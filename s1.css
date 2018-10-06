@@ -1,0 +1,449 @@
+.but
+
+{
+
+    overflow: scroll;
+
+}
+
+.but button {
+
+    background-color: darkred; /* Green */
+
+    border: 1px solid black;
+
+    color: white;
+
+   padding: 15px 32px;
+
+    text-align: center;
+
+    text-decoration: none;
+
+    display: inline-block;
+
+    font-size: 16px;
+
+    cursor: pointer;
+
+    width: 150px;
+
+    display: block;
+
+    
+
+}
+
+
+
+.but button:not(:last-child) {
+
+    border-bottom: none; /* Prevent double borders */
+
+}
+
+
+
+.but button:hover {
+
+    background-color: darkred;
+
+}
+
+p
+
+{
+
+    background-color: #F1F1F1;
+
+    text-align: center;
+
+    padding: 5px;
+
+
+
+}
+
+.pp1 {
+
+    
+
+
+
+    background-color: orange;
+
+    text-align: center;
+
+    text-decoration: none
+
+    font-family: inherit;
+
+    font-size: 30;
+
+    width: 30%
+
+}
+
+
+
+.pp2 {
+
+   
+
+    height:50px;
+
+    background-color: red;
+
+    text-align: left;
+
+    font-family: sans-serif;
+
+    text-decoration: none
+
+    width: 30%
+
+}
+
+
+
+.pp3 {
+
+    height:50px;
+
+    background-color: green;
+
+    text-align: left;
+
+    width: 30%
+
+}
+
+
+
+* {
+
+    box-sizing: border-box;
+
+}
+
+
+
+body {
+
+  margin: 0;
+
+}
+
+
+
+/* Style the header */
+
+
+
+
+
+/* Style the top navigation bar */
+
+.topnav {
+
+    overflow: hidden;
+
+    background-color: #333;
+
+}
+
+
+
+/* Style the topnav links */
+
+.button {
+
+    float: left;
+
+    display: block;
+
+    color: white;
+
+    background-color: BLACK;
+
+    text-align: center;
+
+    padding: 14px 16px;
+
+    text-decoration: none;
+
+}
+
+
+
+/* Change color on hover */
+
+.topnav a:hover {
+
+    background-color: black;
+
+    color: black;
+
+}
+
+
+
+{width: 200px;
+
+    align-self: center;
+
+    background-color: lightgray;
+
+    line-height: 50px;
+
+    text-align: center;
+
+    font-weight: bold;
+
+    color: black;
+
+    border-radius: 5px;
+
+    box-shadow: 0px 0px 2px;
+
+    position: absolute;
+
+
+
+}
+
+
+
+bt:hover{
+
+    background: #333;
+
+    color: lightgray;
+
+}
+
+
+
+.wrapper
+
+{top:95%;
+
+    text-align: center;
+
+    display: inline-block;
+
+    position: relative;
+
+}
+
+.meet
+
+ {border-radius: 500%;
+
+     width: 600px;
+
+     height: 600px;
+
+    position: absolute;
+
+    top: 50%;
+
+    left: 50%;
+
+    transform: translateX(-50%) translateY(-50%);
+
+    max-width: 500%;
+
+    max-height: 500%;
+
+}
+
+
+
+
+
+/* Container needed to position the button. Adjust the width as needed */
+
+.container {left:20%;
+
+  position: absolute;
+
+  width: 50%;
+
+    display: block;
+
+}
+
+
+
+/* Make the image responsive */
+
+.container img {
+
+  
+
+  width: 90%;
+
+  height: auto;
+
+}
+
+
+
+/* Style the button and place it in the middle of the container/image */
+
+.container .btn {
+
+ 
+
+    position: absolute;
+
+  top: 60%;
+
+  left: 45%;
+
+  transform: translate(-50%, -50%);
+
+  -ms-transform: translate(-50%, -50%);
+
+  background-color: #555;
+
+  color: white;
+
+  font-size: 16px;
+
+  padding: 12px 24px;
+
+  border: none;
+
+  cursor: pointer;
+
+  border-radius: 5px;
+
+    
+
+}
+
+
+
+.btn button
+
+{width: 150px;
+
+    align-self: center;
+
+    background-color: lightgray;
+
+    line-height: 50px;
+
+    text-align: center;
+
+    font-weight: bold;
+
+    color: black;
+
+    border-radius: 0px;
+
+    box-shadow: 0px 0px 2px;
+
+    display:block;
+
+}
+
+.container .btn:hover {
+
+  background-color: black;
+
+}
+
+
+
+
+
+.dropbtn {
+
+    background-color: darkred;
+
+    color: white;
+
+    padding: 16px;
+
+    font-size: 16px;
+
+    border: none;
+
+    width: 67%;
+
+}
+
+
+
+/* The container <div> - needed to position the dropdown content */
+
+.dropdown {
+
+    width: 30%;
+
+    position: relative;
+
+    display: inline-block;
+
+}
+
+
+
+/* Dropdown Content (Hidden by Default) */
+
+.dropdown-content {
+
+    display: none;
+
+    position: absolute;
+
+   
+
+    min-width: 160px;
+
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+
+    z-index: 1;
+
+}
+
+
+
+/* Links inside the dropdown */
+
+.dropdown-content a {
+
+    color: white;
+
+    padding: 0px 0px;
+
+    text-decoration: none;
+
+    display: block;
+
+    width: 80%;
+
+}
+
+
+
+/* Change color of dropdown links on hover */
+
+.dropdown-content a:hover {background-color: darkred}
+
+
+
+/* Show the dropdown menu on hover */
+
+.dropdown:hover .dropdown-content {
+
+    display: block;
+
+}
+
+
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
