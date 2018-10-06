@@ -1,6 +1,7 @@
 # online-discussion-forum
 Website for online meetings
-
+open the terminal and type mysql -u root -p;
+enter the password
 Backend mysql code
 
 create  database  discussionpage;
@@ -16,3 +17,5 @@ ALTER  TABLE  MESSAGES  ADD  FOREIGN  KEY(BOARDROOM_ID)  REFERENCES  BOARDROOM(I
 ALTER  TABLE  INVOLVED_IN  ADD  FOREIGN  KEY(USER_ID)  REFERENCES  USERS(ID);
 ALTER  TABLE  INVOLVED_IN  ADD  FOREIGN  KEY(BOARDROOM_ID)  REFERENCES  BOARDROOM(ID);
 CREATE  TRIGGER  INV  AFTER  INSERT  ON  MESSAGES  FOR  EACH  ROW  BEGIN  INSERT  INTO  INVOLVED_IN  VALUES(  NEW.USER_ID  ,NEW.BOARDROOM_ID);  END;
+
+place all the php and css files in /var/www/html
